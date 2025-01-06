@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>HomePage-Ying Zhang</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="h5 d-block d-lg-none">Ying Zhang</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/self.jpg" alt="..." /></span>
+            </a>
+            <div class="h5 mb-2 text-lowercaser">Ying Zhang, Ph.D. | CS@ VT</div>
+            <div class="h6 mb-4 text-lowercaser">220 Gilbert Street, Blacksburg, VA, 24060</div>
+            
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> -->
+            <div class="social-icons">
+                <a class="social-icon-linkedin" href="https://www.linkedin.com/in/ying-zhang-a24620116/"><i class="fab fa-linkedin-in linkedin"></i></a>
+                <a class="social-icon-github" href="https://github.com/NEUZhangy"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="mailto:yingzhang@vt.edu"><i class="fas fa-envelope fa-sm"></i> </a>
+                <!-- <a class="socoal-icon-googleschloar" href="https://scholar.google.com/citations?user=h6AkTC4AAAAJ&hl=en"><i class=""></i> </a> -->
+                <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
+                <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div> -->
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                <h3 class="subheading mb-3">About me</h3>
+                <p class=" mb-3">I obtained my Ph.D. degree from the Department of Computer Science, Virginia Tech. My advisor is <a href="https://people.cs.vt.edu/nm8247/">Prof. Na Meng</a> . My research interests lie in the intersection of software engineering, programming language, and software security, 
+                My research focus on  creating an effective framework that can accurately locate API vulnerabilities, offer to fix guidance to developers,
+                and demonstrate the vulnerabilities. I received my M.S degree from the Missouri S&T Computer Science department in 2018, and
+                my bachelor's degree from Northeastern University, China, in 2016. </p>
+                <!-- <p>I am <b>on the job market</b> (my PhD journey will end this year)!</p> -->
+                <p><a href="https://github.com/NEUZhangy/neuzhangy.github.io/blob/master/Ying_acedamic_CV.pdf">[Resume]</a> <a href="https://scholar.google.com/citations?user=h6AkTC4AAAAJ&hl=en">[Google Scholar]</a> 
+                </p>
+                </div>
+            </section>
+
+            <hr class = "m-0">
+                <section class="resume-section" id="news">
+                    <div class="resume-section-content">
+                        <h3 class="subheading mb-3">Recent News</h3>
+                        <div class="flex-grow-1">
+                            <p class="mb-3" text-color="blue"><img class="rounded-icon mx-auto" src="assets/img/Announcement-Icon.jpg"
+                                    alt="..." /> Our paper on "Glitch Tokens in Large Language Models: Categorization
+                                    Taxonomy and Effective Detection" was accepted by <b>FSE'24 </b>  </p>
+                        </div>
+
+                        <div class="flex-grow-1">
+                            <p class="mb-3" text-color="blue"><img class="rounded-icon mx-auto" src="assets/img/Announcement-Icon.jpg"
+                                    alt="..." /> [01/2024] Our paper on "Broadly Enabling KLEE to Effortlessly Find Unrecoverable Errors
+                                    in Rust" was accepted by <b>ICSE SEIP'24 </b> </p>
+                        </div>
+
+                        <div class="flex-grow-1">
+                            <p class="mb-3" text-color="blue"><img class="rounded-icon mx-auto" src="assets/img/Announcement-Icon.jpg"
+                                    alt="..." /> [11/2023] Our paper on "MASTERKEY: Automated Jailbreaking of Large Language Model
+  Chatbots" was accepted by <b>NDSS'24</b> </p>
+                        </div>
+
+                      
+                    </div>
+                </section>
+            
+            
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="research project">
+                <div class="resume-section-content">
+                    <h3 class="subheading mb-3">Industry Experience</h3>
+
+                    <div class="d-flex  justify-content-between">
+                       
+                        <p class="lead mb-1" text-color = "blue"><img class="rounded-icon mx-auto" src="assets/img/linkedin.png" alt="..." /> Anti-Abuse, Trust Engineer @ Linkedin</p>
+                   
+                    <div class="flex-shrink-0"><span class="text-primary">Oct 2023 - </span></div>
+                   </div>
+                    <div class="d-flex  justify-content-between">
+                       
+                        <p class="lead mb-1" text-color = "blue"><img class="rounded-icon mx-auto" src="assets/img/linkedin.png" alt="..." /> Talent Insight Team @ Linkedin</p>
+                   
+                    <div class="flex-shrink-0"><span class="text-primary">May 2022 - August 2022</span></div>
+                </div>
+                    <div class="d-flex  justify-content-between">
+                        <p class="lead mb-1" text-color = "blue"><img class="rounded-icon mx-auto" src="assets/img/tiktok_icon.png" alt="..." /> Application Security Team @ ByteDance</p>
+                         <div class="flex-shrink-0"><span class="text-primary">May 2021 - August 2021</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="research">
+                <div class="resume-section-content">
+                    <h3 class="subheading mb-3">Ongoing Research Projects</h3>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-1"> Automatic Security Test Generation</p> 
+                            
+                        </div>
+                        <!-- <div class="flex-shrink-0"><span class="text-primary">August 2019 - May 2020</span></div> -->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            
+                            <p class=" lead mb-4"> Vulnerability demonstration for Large Language Models</p>
+                            <!-- <p >Technology Magnet Program</p> -->
+                        </div>
+                        <!-- <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div> -->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h3 class="subheading mb-3">Selected Publications</h3>
+                    <div class="flex-grow-1 mb-3">
+                        <p class="mb-0"> Glitch Tokens in Large Language Models: Categorization
+                            Taxonomy and Effective Detection <a class="social-icon" href="https://arxiv.org/pdf/2404.09894.pdf">[link to paper]</a></p>
+                        <div class="small">Yuxi Li, Yi Liu, Gelei Deng, <b>Ying Zhang</b>, Wenjia Song, Ling Shi, Kailong Wang, Yuekang Li, Yang Liu and Haoyu Wang </div>
+                        <p class="small mb-1">The ACM International Conference on the Foundations of Software Engineering <b>(FSE)</b>, 2024</p>
+                    </div>
+
+                    <div class="flex-grow-1 mb-3">
+                        <p class="mb-0">Broadly Enabling KLEE to Effortlessly Find Unrecoverable Errors
+                            in Rust <a class="social-icon" href="https://people.cs.vt.edu/djwillia/papers/icse-seip24-paniccheck.pdf">[link to paper]</a></p>
+                        <div class="small"><b>Ying Zhang</b>, Peng Li, Yu Ding, Wang Lingxiang, Dan Williams, and Na Meng </div>
+                        <p class="small mb-1">46th International Conference on Software Engineering <b>(ICSE)</b>, SEIP, 2024</p>
+                    </div>
+
+                    <div class="flex-grow-1 mb-3">
+                        <p class="mb-0">MASTERKEY: Automated Jailbreak Across Multiple Large Language Model Chatbots <a class="social-icon"
+                                href="https://arxiv.org/abs/2307.08715">[link to paper]</a></p>
+                        <div class="small"> Gelei Deng, Yi Liu, Yuekang Li, Kailong Wang, <b>Ying Zhang</b>, Zefeng Li, Haoyu Wang, Tianwei Zhang, and Yang Liu</div>
+                        <p class="small mb-1">The Network and Distributed System Security Symposium  <b>(NDSS)</b>2024</p>
+                    </div>
+
+                    <div class="flex-grow-1 mb-3">
+                        <p class="mb-0">Example-Based Vulnerability Detection and Repair in Java Code <a class="social-icon"
+                                href="https://arxiv.org/abs/2203.09009">[link to paper]</a></p>
+                        <div class="small"> <b>Ying Zhang</b>, Ya Xiao, Mahir Kabir, Danfeng (Daphne)Yao, and Na Meng</div>
+                        <p class="small mb-1">30th IEEE/ACM International Conference on Program Comprehension <b>(ICPC)</b> 2022</p>
+                    </div>
+
+                    <div class="flex-grow-1 mb-3">
+                        <p class="mb-0">Automatic Detection of Java Cryptographic API Misuses: Are We There Yet? <a class="social-icon" href="https://www.computer.org/csdl/journal/ts/5555/01/09711933/1AUkpr06EQo">[link to paper]</a></p>
+                        <div class="small"> <b>Ying Zhang</b>, Mahir Kabir, Ya Xiao, Danfeng (Daphne)Yao, and Na Meng</div>
+                        <p class="small mb-1">Transactions on Software Engineering <b>(TSE)</b> 2022</p> 
+                    </div>
+
+                    <!-- <div class="flex-grow-1 mb-3">
+                        <p class="mb-0">Data-Driven Vulnerability Detection and Repair in Java Code <a class="social-icon" href="https://arxiv.org/pdf/2102.06994.pdf">[link to paper]</a></p>
+                        <div class="small"> Ying Zhang, Mahir Kabir, Ya Xiao, Danfeng (Daphne)Yao, and Na Meng </div>
+                    </div> -->
+
+
+                    <!-- <div class="flex-grow-1 mb-3" >
+                        <p class="mb-0">RWS - A Roulette Wheel Scheduler For Preventing Execution Pattern Leakage<a class="social-icon" href="https://ieeexplore.ieee.org/document/8430070"> [link to paper]</a></p>
+                        <div class="small">Ying Zhang, Lingxiang Wang, Wei Jiang, and Zhishan Guo</div>
+                        <p class="small mb-1">Proceedings of the 24th IEEE Real-Time and Embedded Technology and Applications Symposium <b>(RTAS)</b>, BP Session, Porto, Portugal, 2018. </p>
+                    </div> -->
+
+                    <!-- <div class="flex-grow-1">
+                        <p class="mb-0">Integrating Cache-Related Preemption Delay into GEDF Analysis for Multiprocessor Scheduling with On-chip Cache</p>
+                        <p class="small mb-0">Ying Zhang, Zhishan Guo, Lingxiang Wang, Haoyi Xiong, Zhenkai Zhang </p>
+                        <p class="small mb-1">Proceedings of the 27th IEEE Conference on Trustcom/BigDataSE/ICESS, 2017. </p>
+                    </div> -->
+                </div>
+            </section> 
+        </div>
+        <hr class="m-0">
+        <!-- <p> infor</p> -->
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
