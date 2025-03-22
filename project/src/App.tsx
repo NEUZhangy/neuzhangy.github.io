@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Calendar, FileText, Presentation, BookOpen, Home, FileCode, Briefcase, GraduationCap, ChevronRight } from 'lucide-react';
-
+import self from '../img/self.jpg'
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   
@@ -35,18 +35,18 @@ function App() {
       { date: "Feb 27, 2025", topic: "Software Design: Software Achitechture Design", slides: "security", presentation: "Guest Lecture: Lingxiang Wang" },
       { date: "Mar 4, 2025", topic: "Knowledge Sharing: AI in SE", slides: "integration", presentation: "AI in Software Engineering" },
       { date: "Mar 6, 2025", topic: "Midterm", slides: "deployment", presentation: "No Presentation" },
-      { date: "Mar 11, 2025", topic: "Spring Break, no class", slides: "maintenance", presentation: "System Maintenance" },
-      { date: "Mar 13, 2025", topic: "Spring Break, no class", slides: "scaling", presentation: "Growth Strategies" },
+      { date: "Mar 11, 2025", topic: "Spring Break, no class", slides: "maintenance", presentation: "" },
+      { date: "Mar 13, 2025", topic: "Spring Break, no class", slides: "scaling", presentation: "" },
       { date: "Mar 18, 2025", topic: "Software Desgin: Introduction", slides: "Design I", presentation: "Why We Need Software Design: Cohesion & Coupling" },
-      { date: "Mar 20, 2025", topic: "Software Desgin principle: information hiding & abstraction, ", slides: "ux", presentation: "UX Design" },
-      { date: "Mar 25, 2025", topic: "Software Desgin: UML: class diagram", slides: "analytics", presentation: "Data Analysis" },
-      { date: "Mar 27, 2025", topic: "Software Desgin: UML sequence diagram", slides: "monitoring", presentation: "midterm presentation" },
-      { date: "Apr 1, 2025", topic: "Software Design: Desgin pattern ", slides: "future", presentation: "Roadmap Discussion" },
-      { date: "Apr 3, 2025", topic: "Software Design: UI and databased ", slides: "review", presentation: "Course Review" },
+      { date: "Mar 20, 2025", topic: "Software Desgin principle: information hiding & abstraction, ", slides: "ux", presentation: "Coupling &  Information hiding" },
+      { date: "Mar 25, 2025", topic: "Software Desgin", slides: "", presentation: "Modularity in Software Achitechture Design" },
+      { date: "Mar 27, 2025", topic: "Software Desgin: UML sequence diagram", slides: "monitoring", presentation: "" },
+      { date: "Apr 1, 2025", topic: "Software Design: Desgin pattern ", slides: "future", presentation: "" },
+      { date: "Apr 3, 2025", topic: "Software Design: UI and Database ", slides: "", presentation: "Midterm presentation" },
       { date: "Apr 8, 2025", topic: "Software Testing I: concept", slides: "presentations-1", presentation: "Student Projects" },
       { date: "Apr 10, 2025", topic: "Software Testing II: Tool & unit test", slides: "presentations-2", presentation: "write the test together" },
-      { date: "Apr 15, 2025", topic: "Software Testing III", slides: "industry", presentation: "Guest Speaker" },
-      { date: "Apr 17, 2025", topic: "Software Security & Software Testing", slides: "careers", presentation: "Career Guidance" },
+      { date: "Apr 15, 2025", topic: "Software Testing III", slides: "industry", presentation: "" },
+      { date: "Apr 17, 2025", topic: "Software Security & Software Testing", slides: "", presentation: "" },
       { date: "Apr 22, 2025", topic: "Software Project managament & Course Conclusion", slides: "final-review", presentation: "Course Summary" },
       { date: "Apr 24, 2025", topic: "Final Project Demo", slides: "xx", presentation: "x" }
     ];
@@ -58,7 +58,7 @@ function App() {
           <div className="bg-[#f4f4f0] p-4 sm:p-6 rounded-lg border border-gray-200 shadow-md">
             <div className="w-40 h-40 sm:w-40 sm:h-60 mx-auto overflow-hidden rounded-md mb-4">
               <img 
-                src="src/self.jpg" 
+                src={self} 
                 alt="Wake Forest University Campus" 
                 className="w-full h-full object-cover"
               />
@@ -102,9 +102,9 @@ function App() {
             to bridge the gap between theoretical security knowledge and practical implementation. This includes developing comprehensive security frameworks to identify, 
             demonstrate, and mitigate vulnerabilities in open-source software systems, with the goal of equipping developers with enhanced guidance for addressing code vulnerabilities effectively. </p>
             <p> Before joining WFU,  I worked as a Trust Engineer at LinkedIn from 2023 to 2024. I obtained my Ph.D. degree from Virginia Tech in 2023 under the supervision of  
-                <a href="https://people.cs.vt.edu/nm8247/"> Dr. Na Meng </a> and <a href="https://people.cs.vt.edu/danfeng/"> Dr. Daphne (Danfeng) Yao </a>. 
+                <a href="https://people.cs.vt.edu/nm8247/"> Dr. Na Meng </a>  and  <a href="https://people.cs.vt.edu/danfeng/"> Dr. Daphne (Danfeng) Yao </a>. 
                 I received my master's degree from Missouri University of Science and Technology in 2018 and bachelor's degree from Northeastern University (China) in 2016. 
-                During my Ph.D. studies, I spent the summer of 2021 at ByteDance's Application Security team under the supervision of <a href="https://dingelish.com/">Dr. Yu Ding</a>  and Dr. Peng Li.</p>
+                During my Ph.D. studies, I spent the summer of 2021 at ByteDance's Application Security team under the supervision of <a href="https://dingelish.com/"> Dr. Yu Ding </a>  and Dr. Peng Li.</p>
           </div>
 
           <h3 className="text-xl font-bold text-[#000000] mb-3 font-serif">Join the SE Lab</h3>     
@@ -412,6 +412,11 @@ function App() {
               <ChevronRight className="w-5 h-5 text-[#CFA54D] mt-0.5 flex-shrink-0" />
               <span className="text-gray-700">IEEE Secure Development Conference publicity chair
               (SecDev ’25) </span>
+            </li>
+
+            <li className="flex items-start">
+              <ChevronRight className="w-5 h-5 text-[#CFA54D] mt-0.5 flex-shrink-0" />
+              <span className="text-gray-700">the 40th IEEE/ACM International Conference on Automated Software engineering (ASE 2025 NIER) </span>
             </li>
 
             <li className="flex items-start">
