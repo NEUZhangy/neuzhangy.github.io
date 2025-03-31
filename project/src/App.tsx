@@ -410,7 +410,7 @@ function App() {
 
             <li className="flex items-start">
               <ChevronRight className="w-5 h-5 text-[#CFA54D] mt-0.5 flex-shrink-0" />
-              <span className="text-gray-700">IEEE Secure Development Conference publicity chair
+              <span className="text-gray-700">IEEE Secure Development Conference publication chair
               (SecDev ’25) </span>
             </li>
 
