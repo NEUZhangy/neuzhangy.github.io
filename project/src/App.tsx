@@ -31,7 +31,7 @@ function App() {
       { date: "Feb 13, 2025", topic: "UML: Domain Model I", slides: "project-planning", presentation: "From Class diagram to Domain model" },
       { date: "Feb 18, 2025", topic: "UML: Domain Model II & Project Planning", slides: "development", presentation: "Project Planning" },
       { date: "Feb 20, 2025", topic: "No Class", slides: "testing", presentation: "No Class" },
-      { date: "Feb 25, 2025", topic: "UML: System Sequence Diagram", slides: "xx", presentation: "UML Sequence Diagram" },
+      { date: "Feb 25, 2025", topic: "UML: System Sequence Diagram", slides: "", presentation: "UML Sequence Diagram" },
       { date: "Feb 27, 2025", topic: "Software Design: Software Achitechture Design", slides: "security", presentation: "Guest Lecture: Lingxiang Wang" },
       { date: "Mar 4, 2025", topic: "Knowledge Sharing: AI in SE", slides: "integration", presentation: "AI in Software Engineering" },
       { date: "Mar 6, 2025", topic: "Midterm", slides: "deployment", presentation: "No Presentation" },
