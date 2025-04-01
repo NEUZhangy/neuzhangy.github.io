@@ -98,10 +98,10 @@ function App() {
           <h2 className="text-2xl font-bold text-[#000000] mb-4 font-serif">About Me</h2>
           <div className="space-y-4 mb-6">
           <p className="text-gray-700 mb-6">
-          I am an Assistant Professor of Computer Science at Wake Forest University (WFU) since 2025. My research interests include Software Security and Software Engineering. My research aims 
-            to bridge the gap between theoretical security knowledge and practical implementation. This includes developing comprehensive security frameworks to identify, 
-            demonstrate, and mitigate vulnerabilities in open-source software systems, with the goal of equipping developers with enhanced guidance for addressing code vulnerabilities effectively. </p>
-            <p> Before joining WFU,  I worked as a Trust Engineer at LinkedIn from 2023 to 2024. I obtained my Ph.D. degree from Virginia Tech in 2023 under the supervision of  
+            <p>  I am an Assistant Professor of Computer Science at Wake Forest University (WFU) since 2025. My research interests include Software Engineering and Software Security.
+               My research work aims to bridge the gap between theoretical security knowledge and practical implementation. The research mission is to develop comprehensive security frameworks to 
+               identify, demonstrate, and mitigate vulnerabilities in open-source software applications, with the goal of equipping developers with enhanced guidance for addressing code vulnerabilities effectively. </p>
+            <p> Before joining WFU,  I worked as a Trust Engineer at LinkedIn from 2023 to 2024. I obtained my Ph.D. degree from Virginia Tech in 2023 under the supervision of  </p>
                 <a href="https://people.cs.vt.edu/nm8247/"> Dr. Na Meng </a>  and  <a href="https://people.cs.vt.edu/danfeng/"> Dr. Daphne (Danfeng) Yao </a>. 
                 I received my master's degree from Missouri University of Science and Technology in 2018 and bachelor's degree from Northeastern University (China) in 2016. 
                 During my Ph.D. studies, I spent the summer of 2021 at ByteDance's Application Security team under the supervision of <a href="https://dingelish.com/"> Dr. Yu Ding </a>  and Dr. Peng Li.</p>
