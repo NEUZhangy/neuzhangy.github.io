@@ -43,12 +43,12 @@ function App() {
       { date: "Mar 27, 2025", topic: "Software Desgin: UML sequence diagram", slides: "monitoring", presentation: "" },
       { date: "Apr 1, 2025", topic: "Software Design: Desgin pattern ", slides: "future", presentation: "" },
       { date: "Apr 3, 2025", topic: "Software Design: UI and Database ", slides: "", presentation: "Midterm presentation" },
-      { date: "Apr 8, 2025", topic: "Software Testing I: concept", slides: "presentations-1", presentation: "Student Projects" },
+      { date: "Apr 8, 2025", topic: "Software Testing I: concept", slides: "presentations-1", presentation: "" },
       { date: "Apr 10, 2025", topic: "Software Testing II: Tool & unit test", slides: "presentations-2", presentation: "write the test together" },
-      { date: "Apr 15, 2025", topic: "Software Testing III", slides: "industry", presentation: "" },
+      { date: "Apr 15, 2025", topic: "Software Testing III", slides: "Testing Workflow in the Industry", presentation: "" },
       { date: "Apr 17, 2025", topic: "Software Security & Software Testing", slides: "", presentation: "" },
       { date: "Apr 22, 2025", topic: "Software Project managament & Course Conclusion", slides: "final-review", presentation: "Course Summary" },
-      { date: "Apr 24, 2025", topic: "Final Project Demo", slides: "xx", presentation: "x" }
+      { date: "Apr 24, 2025", topic: "Final Project Demo", slides: "", presentation: "" }
     ];
 
   const renderHomePage = () => (
@@ -101,10 +101,10 @@ function App() {
             <p>  I am an Assistant Professor of Computer Science at Wake Forest University (WFU) since 2025. My research interests include Software Engineering and Software Security.
                My research work aims to bridge the gap between theoretical security knowledge and practical implementation. The research mission is to develop comprehensive security frameworks to 
                identify, demonstrate, and mitigate vulnerabilities in open-source software applications, with the goal of equipping developers with enhanced guidance for addressing code vulnerabilities effectively. </p>
-            <p> Before joining WFU,  I worked as a Trust Engineer at LinkedIn from 2023 to 2024. I obtained my Ph.D. degree from Virginia Tech in 2023 under the supervision of  </p>
+             <p> Before joining WFU,  I worked as a Trust Engineer at LinkedIn from 2023 to 2024. I obtained my Ph.D. degree from Virginia Tech in 2023 under the supervision of
                 <a href="https://people.cs.vt.edu/nm8247/"> Dr. Na Meng </a>  and  <a href="https://people.cs.vt.edu/danfeng/"> Dr. Daphne (Danfeng) Yao </a>. 
                 I received my master's degree from Missouri University of Science and Technology in 2018 and bachelor's degree from Northeastern University (China) in 2016. 
-                During my Ph.D. studies, I spent the summer of 2021 at ByteDance's Application Security team under the supervision of <a href="https://dingelish.com/"> Dr. Yu Ding </a>  and Dr. Peng Li.</p>
+                During my Ph.D. studies, I spent the summer of 2021 at ByteDance's Application Security team mentored by <a href="https://dingelish.com/"> Dr. Yu Ding </a>  and Dr. Peng Li.</p>
           </div>
 
           <h3 className="text-xl font-bold text-[#000000] mb-3 font-serif">Join the SE Lab</h3>     
